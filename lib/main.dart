@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
-        //primaryColor: Color(0x1150A6)
+        primaryColor: Colors.blue[900],
+        bottomNavigationBarTheme: BottomNavigationBarTheme.of(context)
       ),
       home: Login(),
     );
